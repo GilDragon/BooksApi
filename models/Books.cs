@@ -2,7 +2,8 @@ public class Book {
     // attributes
     public string Title { get; set; }
     public int NumPages { get; set; }
-    public List<Author> Authors { get; set; }
+    // creates space and then puts in an empty list of <Author>
+    public List<Author> Authors { get; set; } = new List<Author>();
 
 
     // operations
